@@ -23,6 +23,10 @@ protein_string = input()
 total_mass = 0
 for amino_acid in protein_string:
     total_mass += mass_table[amino_acid]
-print(round(total_mass,3))    
+print(round(total_mass,3))
+
+
+
+
                 
 
